@@ -1,0 +1,12 @@
+.env
+node_modules
+.encryptedKey.json
+coverage
+coverage.json
+
+redundantCodes.txt
+SimpleStorage_sol_*
+
+
+.DS_Store
+

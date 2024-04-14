@@ -1,4 +1,4 @@
-# Web 3 Learnings 
+# Web3 Learnings 
 This project was done during 2022/23 and was up-to date till the mentioned year. There might have been some changes (in hardhat) and can cause some unexpected errors, but the notes available provide an in-depth insight on the way web3 (ethereum in general) functions.
 
 [Link to the reference video](https://www.youtube.com/watch?v=gyMwXuJrbJQ)

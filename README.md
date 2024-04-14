@@ -1,4 +1,7 @@
-Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript - 32-Hour Course"
+# Web 3 Learnings 
+This project was done during 2022/23 and was up-to date till the mentioned year. There might have been some changes (in hardhat) and can cause some unexpected errors, but the notes available provide an in-depth insight on the way web3 (ethereum in general) functions.
+
+[Link to the reference video](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 
 # Table of Content
 - <a href="#lesson-0-welcome-to-blockchain">Lesson 0: Welcome to Blockchain</a>
@@ -17,8 +20,6 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
 - <a href="#lesson-13-hardhat-defi--aave">Lesson 13: Hardhat DeFi & Aave</a>
 - <a href="#lesson-14-hardhat-nfts">Lesson 14: Hardhat NFTs</a>
 - <a href="#lesson-15-nextjs-nft-marketplace-full-stack--front-end">Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)</a>
-
-[Link to the video](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=84s)
 
 # Lesson 0: Welcome to Blockchain
 
@@ -78,7 +79,8 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
 
 	> **NOTE: In short, private keys are used to create public keys which in turn is used to create an address. Ethereum Improvement Proposal (EIP), similar to Bitcoin Imporvement Proposal (BIP) is the design document covering technical specifications of the proposed changed and the rationale behind it.**
 
-	In summary, the miners are looking for blocks to add to the blockchain. On the user end, the user has a transaction with a certain gas price and they want to add that transaction on the block. Higher the gas price, higher the miner will get paid, so the miners sort the blocks with the highest gas price and adds them in that manner. (It is proposed to introduce EIP 1559 in ETH 2.0 rather than ETH as the EIP will lessen the profit for miners than the current model stated above)  
+	In summary, the miners are looking for blocks to add to the blockchain. On the user end, the user has a transaction with a certain gas price and they want to add that transaction on the block. Higher the gas price, higher the miner will get paid, so the miners sort the blocks with the highest gas price and adds them in that manner. (It is proposed to introduce EIP 1559 in ETH 2.0 rather than ETH as the EIP will lessen the profit for miners than the current model stated above)
+
 	8. Node is a single instance in a decentralized network, meaning that a node is a blockchain software run by one of many peers in the network. What makes this concept decentralized is, anyone can join the network (some hardware/technical barrier might exist) and participate.  
 	9.  Consensus is the mechanism used to agree on the state of the blockchain. Roughly speaking, the consensus protocol can be broken down into two pieces: A chain selection algorithm (Nakamoto consensus and block confirmation) and a sybil resistance mechanism (proof of work and proof of stake).  
 	10. Block time is defined as the time required for the block to be published. Higher the block time, more difficult is the problem to solve and vice versa. Whenever a node solves the blockchain problem (eg. finding a hash value starting with 4 zeroes), the node gets the transaction fee and block reward as payment.  
@@ -91,6 +93,8 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
     - Layer 2: Any application built on top of the layer 1 (Chainlink, arbitrum, optimism, etc). These layers rollup their transaction into layer 1.
 
 <a href="#lesson-1-blockchain-basics">Back to top Lesson 1</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 2: Welcome to Remix! Simple Storage
 
@@ -143,6 +147,8 @@ To assign value to the keys, we can do it as: `map-name[key-name] = value;`
 
 <a href="#lesson-2-welcome-to-remix-simple-storage">Back to top of Lesson 2</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 # Lesson 3: Remix Storage Factory
 
 (keywords: )
@@ -188,6 +194,8 @@ To assign value to the keys, we can do it as: `map-name[key-name] = value;`
 	```
 
 <a href="#lesson-3-remix-storage-factory">Back to top of Lesson 3</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 4: Remix Fund Me
 
@@ -371,6 +379,8 @@ Here, the revert message is sent when the requirement is not fulfilled, and reve
 
 <a href="#lesson-4-remix-fund-me">Back to top of Lesson 4</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 #################### End of Solidity Basics ###########################
 
 # Lesson 5: Ether.js Simple
@@ -523,6 +533,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 
 <a href="#lesson-5-etherjs-simple">Back to top of Lesson 5</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 # Lesson 6: Hardhat Simple Storage
 
 (keywords: testing, solidity coverage, describe-beforeEach-it block, hardhat runtime environment, gas reporter)
@@ -608,6 +620,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 > **REMINDER TO RE-READ ALL THESE NOTES IN THE FUTURE AS IT CONTAINS ALL THE THEORETICAL TO TECHNICAL STUFF THAT WILL BE USEFUL IN ONE WAY OR ANOTHER.**
 
 <a href="#lesson-6-hardhat-simple-storage">Back to top of Lesson 6</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 7: Hardhat Fund Me
 
@@ -937,6 +951,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 
 <a href="#lesson-7-hardhat-fund-me">Back to top of Lesson 7</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 # Lesson 8: HTML / Javascript Fund Me (Full Stack / Front End)
 
 (keywords: )
@@ -989,6 +1005,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 14. The recap portion of this lesson is a must to revisit and understand the basics of how the interaction is done between the contracts with the Metamask and the front end portion.
 
 <a href="#lesson-8-html--javascript-fund-me-full-stack--front-end">Back to top of Lesson 8</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 9: Hardhat Smart Contract Lottery
 
@@ -1200,6 +1218,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 
 <a href="#lesson-9-hardhat-smart-contract-lottery">Back to top of Lesson 9</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 ######################### Completed Hardhat Basics ###########################################
 
 # Lesson 10: NextJS Smart Contract Lottery (Full Stack/ Front End)
@@ -1210,6 +1230,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 
 <a href="#lesson-10-nextjs-smart-contract-lottery-full-stack-front-end">Back to top of Lesson 10</a>
 
+<a href="#table-of-content">Table of Content</a>
+
 # Lesson 11: Hardhat Starter Kit
 
 (keywords: )
@@ -1218,6 +1240,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 2. The [repo](https://github.com/smartcontractkit/hardhat-starter-kit) contains many contracts along with mocks and tests. 
 
 <a href="#lesson-11-hardhat-starter-kit">Back to top of Lesson 11</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 12: Hardhat ERC20s
 
@@ -1236,6 +1260,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 8. Tokens have a map called "allowance" that allows other addresses to have access to one's token and help move tokens around. This is important for DeFi as it allows smart contracts to interact with it's users addresses to transfer tokens.
 
 <a href="#lesson-12-hardhat-erc20s">Back to top of Lesson 12</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 13: Hardhat DeFi & Aave
 
@@ -1276,6 +1302,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 17. Make sure to refer to the github repo of the tutorial to get more insight on how DeFi works (like [this site](https://speedrunethereum.com/)) and how it can be implemented.
 
 <a href="#lesson-13-hardhat-defi--aave">Back to top of Lesson 13</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 14: Hardhat NFTs
 
@@ -1326,6 +1354,8 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 11. One thing to keep in mind is to refer to the [repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-14-hardhat-nfts-everything-you-need-to-know-about-nfts) to understand more about the ethereum network and other interesting videos.
 
 <a href="#lesson-14-hardhat-nfts">Back to top of Lesson 14</a>
+
+<a href="#table-of-content">Table of Content</a>
 
 # Lesson 15: NextJS NFT Marketplace (Full Stack / Front End)
 (keywords: )

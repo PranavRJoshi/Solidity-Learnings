@@ -60,7 +60,7 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
 	3. Gas Price: Cost per unit of gas spent for the transactions, in ether and gwei (higher the gas price implies greater chance of getting in the blockchain)
 	4. Gas: A unit of computational measurement. The more complex the transaction is, the more gas you have to pay. (Transaction fee = The amount of GAS used by specific transaction alone * Gas price)
 21. Any transaction on the blockchain comes with paying gas.
-22. How do Blockchains work? Check out [this awesome website](andersbrownworth.com/blockchain)
+22. How do Blockchains work? Check out [this awesome website](https://andersbrownworth.com/blockchain)
 23. Some terminologies used in the field of blockchain are:  
 	1. Hash is a unique fixed length string, meant to identify a piece of data. They are created by placing a said data into a "hash function". Ethereum uses the Keccak256 algorithm and bitcoin uses the SHA-256 algorithm.  
 	2. A block is a component consisting of the block number, the Nonce (a unique number/tag which is apparently used to "solve the cryptographic problem"), data and hash where these value determine the solution to hash (eg, a particular Nonce along with the data such that the hash function always generates a hash value starting with 4 zeroes)  

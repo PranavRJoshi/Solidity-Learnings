@@ -22,7 +22,7 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
 
 # Lesson 0: Welcome to Blockchain
 
-1. Take reference from the github repo [given in description](github.com/smartcontractkit/full-blockchain-solidity-course-js/) and refer to discussions to learn from the community.
+1. Take reference from the github repo [given in description](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions).
 2. Open the documentation.
 3. Learn the sections you want.
    

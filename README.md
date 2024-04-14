@@ -55,10 +55,10 @@ Notes for the video "Learn Blockchain, Solidity, and Full Stack Web3 Development
 18. `etherscan.io` is a site which is a block explorer and is used to get the details for any addresses given to it.
 19. Mnemonic (Security recovery phrase for metamask.io) can be used to access all your accounts, private key can be used to access only the account the private key is associated with, public key cannot be used to access any accounts.
 20. A way to become a smart contract developer is to understand the "behind the scenes" of a transaction, which is:
-	i. Transaction Hash: Unique identifier to determine the block or the transaction. This transaction hash is responsible to showcase that a certain amount of crytocurrency has been transacted.
-	ii. Transaction fee: Amount paid to process the transaction in ether and fiat value, 
-	iii. Gas Price: Cost per unit of gas spent for the transactions, in ether and gwei (higher the gas price implies greater chance of getting in the blockchain)
-	iv.  Gas: A unit of computational measurement. The more complex the transaction is, the more gas you have to pay. (Transaction fee = The amount of GAS used by specific transaction alone * Gas price)
+	1. Transaction Hash: Unique identifier to determine the block or the transaction. This transaction hash is responsible to showcase that a certain amount of crytocurrency has been transacted.
+	2. Transaction fee: Amount paid to process the transaction in ether and fiat value, 
+	3. Gas Price: Cost per unit of gas spent for the transactions, in ether and gwei (higher the gas price implies greater chance of getting in the blockchain)
+	4. Gas: A unit of computational measurement. The more complex the transaction is, the more gas you have to pay. (Transaction fee = The amount of GAS used by specific transaction alone * Gas price)
 21. Any transaction on the blockchain comes with paying gas.
 22. How do Blockchains work? Check out [this awesome website](andersbrownworth.com/blockchain)
 23. Some terminologies used in the field of blockchain are:  
@@ -681,7 +681,7 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 	get("contract-name"): This is the method of the `deployments` object that retrieves information about a specific contract deployment. You need to pass the name of the contract you want to retrieve the information for as a string parameter. This method returns an object containing deployment details for the specified contract, including the address of the deployed contract and other relevant metadata.	
 	```
 	We also created another conditional statement that checks if the contract is deployed locally or on a testnet. If we were to deploy the contract on the testnet, we called the verify method defined and discussed next.  
-	vi. In the `utils/verify.js` file, we defined function which takes in two arguments: `contractAddress` and `args`. The first argument takes in the address of the deployed contract and the second argument takes in the arguments which is used to initialize the contract's constructor. We used the `hardhat run` task to programmatically verify our contract and if the contract was already verified, it would fallback and notify the user about the contract's previous verification.  
+	6. In the `utils/verify.js` file, we defined function which takes in two arguments: `contractAddress` and `args`. The first argument takes in the address of the deployed contract and the second argument takes in the arguments which is used to initialize the contract's constructor. We used the `hardhat run` task to programmatically verify our contract and if the contract was already verified, it would fallback and notify the user about the contract's previous verification.  
 11. We need to get low level understanding of Solidity programs as well. But first, we need to familiarize ourselves with the style guide of a Solidity program which is explained in detail in [this site](https://docs.soliditylang.org/en/latest/style-guide.html). One thing that is not mentioned in the style guide is the appropriate spot for error declaration, but it is optimal to declare it after all the import has been done. For instnace, 
 	```
 	// Sample code
@@ -909,7 +909,7 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
  
 	This is the order of the function definition which is preferred in a `*.sol` contract.
 
-25. Ternary operator is used in a similar fashion in js as in python. It is equivalent to if...else statement.
+24. Ternary operator is used in a similar fashion in js as in python. It is equivalent to if...else statement.
 	```
 	let variable = true;
 	let someVar = variable ? "some-value-if-true" : "some-value-if-false"
@@ -922,14 +922,14 @@ If you encounter node permission errors, you can use sudo command, like: `sudo c
 		someVar = "some-value-if-false";
 	}
 	```
-26. Adding scripts to package.json, a dictionary contained inside module.exports that can run commands as:
+25. Adding scripts to package.json, a dictionary contained inside module.exports that can run commands as:
 	```
 	"scripts": {
 		"test": "yarn hardhat test"
 	},
 	```
 	So when we enter `yarn test`, it will be equivalent to writing `yarn hardhat test`.
-27. Some useful links to learn about git and github:
+26. Some useful links to learn about git and github:
 	- https://docs.github.com/en/get-started/quickstart
 	- https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 	- https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git
